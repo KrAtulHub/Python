@@ -1,0 +1,6 @@
+age =int(input("enter age ="))
+
+if age<=18:
+    print(f"Not Eligible to vote , you can vote after {18-age} yr")
+else:
+    print("eligible")
