@@ -1,0 +1,14 @@
+n = input()
+even = 0
+odd = 0
+
+for ch in n:
+    if ch != '-':          
+        digit = int(ch)
+        if digit % 2 == 0:
+            even += 1
+        else:
+            odd += 1
+
+print("Even:", even)
+print("Odd:", odd)
