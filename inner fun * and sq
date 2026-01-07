@@ -1,0 +1,8 @@
+def multiply_and_square(a, b):
+    def square(x):
+        return x * x
+    
+    product = a * b
+    result = square(product)
+    print(result)
+
