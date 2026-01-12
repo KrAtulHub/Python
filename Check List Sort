@@ -1,0 +1,6 @@
+l =[1,3,2,4,0]
+
+if l==sorted(l):
+    print("List is sorted ")
+else:
+    print("Not")
