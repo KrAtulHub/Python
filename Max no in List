@@ -1,0 +1,10 @@
+l =[2,4,55,22,111,999]
+
+maxx =l[0]
+index =0
+
+for i in range(len(l)): 
+    if l[i]>maxx: 
+        maxx =l[i]
+        index=i
+print(maxx)
