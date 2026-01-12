@@ -1,0 +1,8 @@
+l =[1,2,3]
+summ =0
+for i in l: 
+    summ=summ+i
+    
+print("Sum =",summ)
+print("Average =",summ/len(l))
+    
